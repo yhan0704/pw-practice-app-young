@@ -5,5 +5,4 @@ test('get started link', async ({ page }) => {
 
   await page.getByText("Forms").click()
   await page.getByText("Form Layouts").click()
-
 });
